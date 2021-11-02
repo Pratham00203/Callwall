@@ -2527,7 +2527,7 @@ body.btMenuHorizontal .menuPort .rightNav ul ul .subToggler {
 .btMenuHorizontal .menuPort > nav > ul > li > a {
     padding: 0 -webkit-calc(50px * .4);
     padding: 0 -moz-calc(50px * .4);
-    padding: 0 calc(50px * .4);
+    padding: 0 calc(42px * .4);
     -webkit-transition: none;
     -moz-transition: none;
     transition: none;
@@ -2743,7 +2743,7 @@ html.touch .btMenuHorizontal .menuPort > nav > ul > li > ul li a.btEmptyElement 
     }
 .btMenuHorizontal .menuPort nav {
     float: left;
-    padding-left: 50px;
+    padding-left: 35px;
     }
 .rtl.btMenuHorizontal .menuPort nav {
     padding-right: 50px;
@@ -3763,6 +3763,7 @@ body.btBelowMenu.btMenuHorizontal.btAlternateGradientHeader .mainHeader.gutter {
     height: -webkit-calc(120px*0.5);
     height: -moz-calc(120px*0.5);
     height: calc(120px*0.5);
+    margin: 0;
     }
 .btStickyHeaderActive.btMenuHorizontal .mainHeader .btLogoArea .btTextLogo {
     font-size: 1.5em;
@@ -12120,7 +12121,14 @@ a.btAccentIconWidget.btIconWidget:hover {
     -webkit-flex-basis: 54.6875%;
     flex-basis: 54.6875%;
     max-width: 54.6875%;
+    margin-left: 50px;
     }
+@media (max-width:1200px){
+    .bt_bb_section.bt_bb_layout_boxed_1200.bt_bb_section_show_left_boxed_content .bt_bb_row .bt_bb_column:first-child[data-width="7"] {
+        margin-left:0px;
+        margin-top: 50px;
+    }
+}
 .bt_bb_section.bt_bb_layout_boxed_1200.bt_bb_section_show_left_boxed_content .bt_bb_row .bt_bb_column:first-child[data-width="7"] .bt_bb_column_content {
     max-width: 680px;
     }
@@ -12177,7 +12185,7 @@ a.btAccentIconWidget.btIconWidget:hover {
 .bt_bb_section.bt_bb_layout_boxed_1200.bt_bb_section_show_left_boxed_content .bt_bb_row .bt_bb_column:last-child[data-width="5"] {
     -webkit-flex-basis: 45.3125%;
     flex-basis: 45.3125%;
-    max-width: 45.3125%;
+    max-width: 40.3125%;
     }
 .bt_bb_section.bt_bb_layout_boxed_1200.bt_bb_section_show_left_boxed_content .bt_bb_row .bt_bb_column:last-child[data-width="4"] {
     -webkit-flex-basis: 39.5042%;
@@ -15040,7 +15048,7 @@ button.slick-arrow:before {
 .bt_bb_arrows_position_below.bt_bb_arrows_size_medium button.slick-arrow,
 .bt_bb_arrows_position_below_left.bt_bb_arrows_size_medium button.slick-arrow,
 .bt_bb_arrows_position_below_right.bt_bb_arrows_size_medium button.slick-arrow {
-    bottom: -4.3640625â?¬em;
+    bottom: -4.3640625ï¿½?ï¿½em;
     }
 .bt_bb_arrows_size_small button.slick-arrow {
     width: 2.25em;
