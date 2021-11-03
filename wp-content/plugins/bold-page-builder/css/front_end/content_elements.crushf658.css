@@ -526,8 +526,8 @@
     -webkit-flex-flow: column nowrap;
     -ms-flex-flow: column nowrap;
     flex-flow: column nowrap;
-    /* padding-left: 20px;
-    padding-right: 20px; */
+    padding-left: 20px;
+    padding-right: 20px;
     }
 .bt_bb_row .bt_bb_column.bt_bb_vertical_align_top {
     -webkit-justify-content: flex-start;
