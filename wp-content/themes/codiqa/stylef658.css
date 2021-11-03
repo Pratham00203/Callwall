@@ -14574,6 +14574,7 @@ body.btHeadingStyle_compact .bt_bb_latest_posts_item .bt_bb_latest_posts_item_ti
     -webkit-align-items: flex-end;
     -ms-flex-align: end;
     align-items: flex-end;
+    margin-top:80px;
     }
 .bt_bb_layout_wide .bt_bb_content_slider:not(.bt_bb_multiple_slides) .slick-slider .bt_bb_content_slider_item.bt_bb_show_boxed_content .bt_bb_content_slider_item_content .bt_bb_row_inner .bt_bb_column_inner:first-child .bt_bb_column_inner_content,
 .bt_bb_layout_wide .bt_bb_content_slider:not(.bt_bb_multiple_slides) .slick-slider .bt_bb_content_slider_item.bt_bb_show_left_boxed_content .bt_bb_content_slider_item_content .bt_bb_row_inner .bt_bb_column_inner:first-child .bt_bb_column_inner_content,
